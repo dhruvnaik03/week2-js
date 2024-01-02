@@ -2,7 +2,7 @@
 const importAsyncModule = async () => {
     try {
 
-        const asyncModule = await import('./asyncModule.js');
+        const asyncModule = await import('./AsyncModule.js');
 
        
         const result = await asyncModule.fetchData();
